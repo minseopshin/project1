@@ -1,0 +1,254 @@
+body {
+ 
+  font-size: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0;
+}
+
+
+
+a {
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+a:hover { text-decoration: none; }
+button:focus { outline: none; }
+p {
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+h1, h2, h3, h4 { color: #008080; }
+
+.container {
+    max-width: 1210px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.bg-color-1 { background-color: white; }
+
+.color-8 { background-color: #EDEEEF; }
+.tm-bg-color-white { background-color: white; }
+.text-center { text-align: center; }
+
+.header {
+    display: flex;
+    flex-direction: row; /* 한 줄의 글을 작성하는 방향대로 */
+    align-items: center;
+    justify-content: space-between; /*메인축 방향으로 아이템을들 정렬하는 속성 */
+    height: 210px;
+   
+}
+
+
+.item { /*수정한부분 */
+  list-style: none;
+  display: inline-block;
+  width: 145px;
+  height: 145px;
+  margin-right: 15px;
+  background-color: white;
+}
+
+
+.tm-link {
+  color: #666;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 25%;
+  font-size: 1.2rem;
+}
+
+
+.tm-link:hover {
+  color: white;
+  background-color: #0fb7cc;
+}
+
+
+#footer{
+width:2800px;
+height:100px;
+background:#4f4f4f;
+margin:auto;
+color:white;
+font-size: 18px;
+text-align:left;
+
+}
+
+/* 폼태그 관련 스타일 */
+.text_form{
+	width:300px;
+	height:30px;
+	border:1px solid orange;
+}
+.pwd_form{
+	width:300px;
+	height:30px;
+	border:1px solid orange;		
+}
+.submit_form
+{
+	width:306px;	/*폼은 text보다 작아서 조금 크게 */
+	height:35px;
+	border:1px solid orange;
+	background:orange;
+	color:white;
+}
+.psearch_form .submit_form{
+		width:300px;
+}
+.psearch_form tr{
+	height:50px;
+}
+.userid_form .submit_form{ /*userid_search 에서 적용 ! */
+	width:300px;
+	
+}
+
+.userid_form tr{
+	height:50px;
+	
+}
+
+.login_table tr{	/*tr 속성: 간격조정을위함 */
+	height:50px;
+}
+.login_table a{
+	text-decoration:none;	/*a태그에 밑줄 제거 */
+	color:black;
+	font-size:13px;
+	margin-left:5px;
+}
+.login_table a:hover{
+	/*a태그에 마우스가 올라갈때 속성바꾸기 */
+	text-decoration:underline;
+	color:blue;
+	
+}
+
+
+
+
+/* 스타일시트는 항상 제일 마지막게 적용 */
+
+.member_form input[type=text]	/*class= 멤버 폼 안에있는 인풋타입의 텍스인 것에 적용 */
+{
+	width:200px;	
+	height:30px;
+	border:1px solid orange;
+}
+.member_form input[type=password]
+{
+	width:200px;	
+	height:30px;
+	border:1px solid orange;
+}
+.member_form input[type=submit]
+{
+	width:200px;	
+	height:35px;
+	border:1px solid orange;
+	background:orange;
+	color:white;
+}
+.member_form tr{
+	height:50px;
+}
+
+/* 마우스 커서를 손모양으로 - 모든 문서의 id hand가 손모양으로 바뀜!*/
+#hand {
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* 관리자 페이지를 위함 */
+
+
+
+/* reserve 예약관리 관련 */ 
+
+
+/*member회원관리 만들면서 추가!*/
+table{
+	border-collapse:collapse;	
+	
+}
+
+.my_reserve_wrap
+{ 
+	padding:50px; 
+}
+.my_reserve
+{
+	width:1000px;
+	border-top:2px solid navy;	
+	border-bottom:white;	
+}
+.my_reserve tr{
+	border-bottom:1px solid #ccc;	
+	
+}
+.my_reserve th,
+.my_reserve td{
+	
+	text-align:center;
+	padding:10px;
+	
+}
+
+
+.tm-bg-color-1 { background-color: #9999CC; }
+
+.tm-bg-color-white { background-color: white; }
+.tm-text-color-1 { color: #666; }
+.tm-text-color-2 { color: #333; }
+.tm-text-white { color: #fff; }
+.text-center { text-align: center; }
+
+
+
+/* 가로정렬을 위함 reserve */
+
+.tm-row { display: flex; }
+
+.tm-social-row { padding: 30px; }
+
+
+.tm-icon-inner {
+  
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.tm-icon-inner > a > * { color: white; }
+.tm-icon-inner h3 { line-height: 0.5; }
+
+
+
+
+
+
+
+
+

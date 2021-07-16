@@ -1,0 +1,767 @@
+*{
+  font-family: 'Noto Sans KR', sans-serif;
+	
+}
+
+
+body {
+ 
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0;
+
+}
+
+
+
+a {
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color:black;
+}
+
+a:hover { 
+	text-decoration: none;
+ 	color:black;
+ }
+button:focus { outline: none; }
+p {
+  color: black;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+h1, h2, h3, h4 { color: #008080; }
+ 
+
+caption{
+	font-size:27px;
+	
+}
+.container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:13px;
+}
+
+
+
+
+.bg-color-1 { background-color: white; }
+
+.color-8 { background-color: #EDEEEF; }/*기존 컬러:EDEEEF */
+.tm-bg-color-white { background-color: white; }
+.text-center { text-align: center; }
+
+.header {
+    display: flex;
+    flex-direction: row; /* 한 줄의 글을 작성하는 방향대로 */
+    align-items: center;
+    justify-content: space-between; /*메인축 방향으로 아이템을들 정렬하는 속성 */
+    height: 60px;
+   
+}
+
+
+.item { 
+  list-style: none;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  margin-right: 25px;
+  background-color: white;
+}
+
+
+.tm-link {
+  color: #666;
+  width: 160%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 17%;
+  font-size: 1.1rem;
+}
+
+
+.tm-link:hover {
+  color: white;
+  background-color: #0fb7cc;
+}
+
+
+#footer{
+width:2000px;
+height:100px;
+background:#4f4f4f;
+margin:auto;
+color:white;
+font-size: 18px;
+text-align:center;
+}
+
+/* 폼태그 관련 스타일 */
+.text_form{
+	width:300px;
+	height:30px;
+	border:1px solid orange;
+}
+.text_form2{	
+	width:600px;
+	height:30px;
+	border:1px solid #ccc;
+}
+
+.text_form3{	
+	width:600px;
+	height:380px;
+	border:1px solid #ccc;
+}
+
+.text_form4{	
+	width:600px;
+	height:150px;
+	border:1px solid #ccc;
+}
+
+.text_form5{	
+	width:600px;
+	height:30px;
+	border:1px solid #ccc;
+}
+
+.text_form6{	
+	width:200px;
+	height:30px;
+	border:1px solid #ccc;
+}
+
+
+.pwd_form{
+	width:300px;
+	height:30px;
+	border:1px solid orange;		
+}
+.submit_form
+{
+	width:306px;	
+	height:35px;
+	border:1px solid orange;
+	background:orange;
+	color:white;
+	
+	
+}
+
+.submit_form2	
+{
+	width:95px;	
+	height:35px;
+	border:1px solid navy;
+	background:navy;
+	color:white;
+	
+	
+}
+
+.submit_form4{	
+	width:90px;
+	height:35px;
+	border:1px solid grey;
+	background:#dfdfdf;
+	color:black;
+}
+
+.submit_form5{	
+	width:60px;
+	height:35px;
+	border:1px solid navy;
+	background:navy;
+	color:white;
+}
+
+
+.submit_form6
+{
+	width:200px;	
+	height:45px;
+	border:1px solid navy;
+	background:white;
+	color:black;
+	font-size:16px;
+	margin:5px;
+	
+}
+
+
+.psearch_form .submit_form{
+		width:300px;
+}
+.psearch_form tr{
+	height:50px;
+}
+.userid_form .submit_form{ 
+	width:300px;
+	
+}
+
+.userid_form tr{
+	height:50px;
+	
+}
+
+.login_table tr{	
+	height:50px;
+}
+.login_table a{
+	text-decoration:none;	
+	color:black;
+	font-size:13px;
+	margin-left:5px;
+}
+.login_table a:hover{
+	
+	text-decoration:underline;
+	color:blue;
+	
+}
+
+
+
+
+/* 스타일시트는 항상 제일 마지막게 적용 */
+
+.member_form input[type=text]	
+{
+	width:200px;	
+	height:30px;
+	border:1px solid orange;
+}
+.member_form input[type=password]
+{
+	width:200px;	
+	height:30px;
+	border:1px solid orange;
+}
+.member_form input[type=submit]
+{
+	width:200px;	
+	height:35px;
+	border:1px solid orange;
+	background:orange;
+	color:white;
+}
+.member_form tr{
+	height:50px;
+}
+
+/* 마우스 커서를 손모양으로 - 모든 문서의 id hand가 손모양으로 바뀜!*/
+#hand {
+	cursor:pointer;
+}
+
+
+
+
+
+
+/*notice 공지사항 만들면서 추가!*/
+table{
+	border-collapse:collapse;	/* 테이블 간격간격 빈칸 공백 없앰 */
+	
+}
+
+.board_list_wrap
+{
+	padding:50px;	/*여백*/
+	
+}
+.board_list
+{
+	width:100%;
+	border-top:2px solid navy;	/*맨윗줄에 한줄 추가 */
+}
+.board_list tr{
+	border-bottom:1px solid #ccc;	
+	
+}
+.board_list th,
+.board_list td{
+	
+	text-align:center;
+	padding:10px;
+}
+.board_list tbody tr td:nth-child(2)	/*제목부분만 nth-child(2)상속  tbody tr td:nth-child(2)-tit로 명칭 지정도 가능*/
+{
+	text-align:center;
+	
+}
+.board_list tbody tr td:nth-child(2):hover	/* 제목부분 마우스 올라갔을때처리하기위함 */
+{
+	text-decoration:underline;
+	
+}
+
+
+
+/*member회원관리 만들면서 추가!*/
+table{
+	border-collapse:collapse;	/* 테이블 간격간격 빈칸 공백 없앰 */
+	
+}
+
+.my_list_wrap
+{ 
+	padding:50px; /*여백*/
+}
+.my_list
+{
+	width:100%;
+	border-top:2px solid navy;	/*맨윗줄에 한줄 추가 */
+	border-bottom:white;
+}
+.my_list tr{
+	border-bottom:1px solid #ccc;	
+	
+}
+.my_list th,
+.my_list td{
+	
+	text-align:center;
+	padding:10px;
+}
+.my_list tbody tr td:nth-child(2)	
+{
+	text-allign:left;
+	
+}
+
+
+
+
+/* reserve 예약관리 관련 */ 
+
+
+/*member회원관리 만들면서 추가!*/
+table{
+	border-collapse:collapse;	
+	
+}
+
+.my_reserve_wrap
+{ 
+	padding:50px; 
+}
+.my_reserve
+{
+	width:1000px;
+	border-top:2px solid navy;	
+	border-bottom:white;	
+}
+.my_reserve tr{
+	border-bottom:1px solid #ccc;	
+	
+}
+.my_reserve th,
+.my_reserve td{
+	
+	text-align:center;
+	padding:10px;
+	
+}
+
+
+.tm-bg-color-1 { background-color: #9999CC; }
+
+.tm-bg-color-white { background-color: white; }
+.tm-text-color-1 { color: #666; }
+.tm-text-color-2 { color: #333; }
+.tm-text-white { color: #fff; }
+.text-center { text-align: center; }
+
+
+
+/* 가로정렬을 위함 reserve */
+
+.tm-row { display: flex; }
+
+.tm-social-row { padding: 30px; }
+
+
+.tm-icon-inner {
+  
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.tm-icon-inner > a > * { color: white; }
+.tm-icon-inner h3 { line-height: 0.5; }
+
+
+/* reserveshow.jsp-여행추천지 연결 부분 css 추가 */
+
+.contents1{
+  font-size: 20px;
+  font-weight: lighter;
+}
+.contents2{
+  font-size: 18px;
+}
+.contents3 {
+  font-size: 14px;
+  font-weight: 100;
+}
+.contents4 {
+  font-size: 12px;
+  font-weight: 100;
+}
+.contents1_bold{
+  font-size: 18px;
+  font-weight: bold;
+}
+/* --- */
+
+.result{
+  font-size: 24px;
+}
+
+
+
+
+
+/* main_text0 */	/*여행추천지 reserveshow */
+
+.main_text0{
+  width: 100%;
+  height:800px;
+  /*margin-top:-132px;*/
+  background: #f0e1ff;	/* 뒤에 배경 */
+}
+.main_text0 > h1{
+  padding-top:116px;
+  text-align: center;
+}
+.main_text0 > .contents1 {
+  text-align: center;
+}
+
+/* main_text2 */	/* reserve- info */
+
+.main_text2{
+  width: 100%;
+  height:350px;
+  /*margin-top:-132px;*/
+  background: white;	/* 뒤에 배경 */
+}
+.main_text2 > h1{
+  padding-top:116px;
+  text-align: center;
+}
+.main_text2 > .contents1 {
+  text-align: center;
+}
+
+
+
+/* main_text3 */	/*board.list.jsp : 여행후기게시판관련 */
+
+.main_text3{
+  width: 100%;
+  height:700px;
+  background: #dbfff9;	/* 뒤에 배경 */
+}
+.main_text3 > h1{
+  padding-top:80px;
+  text-align: center;
+}
+.main_text3 > .contents3 {
+  text-align: center;
+}
+
+
+
+
+
+
+
+.icons{
+  display: flex;
+  width:800px;
+  height: 302px;
+/*    background: orange;   */
+  margin:auto;
+  list-style-type:none;
+  padding-left:0px;	/* 중앙정렬하기위함 현재 flex로 조절해서 속성 추가했음 */
+  margin-left:110px; 
+}
+ 
+.icons > li {
+  flex: 1;
+  background: white;
+  margin-top:49px;
+  height:302px;
+  text-align: center;
+ 
+}
+.icons > li > .icon_img{
+  margin-top:18px;
+}
+
+.icons > li:not(:last-child){
+  margin-right: 20px;
+}
+
+.icons .contents2 {
+  width:200px;
+  margin:auto;
+  letter-spacing: -1px;
+}
+
+
+
+
+
+.icons2{
+  display: flex;
+  width:800px;
+  height: 302px;
+/*    background: orange;   */
+  margin:auto;
+  list-style-type:none;
+  padding-left:0px;	/* 중앙정렬하기위함 현재 flex로 조절해서 속성 추가했음 */
+  margin-left:86px; 
+}
+ 
+.icons2 > li {
+  flex: 1;
+  background: white;
+  margin-top:49px;
+  height:302px;
+  text-align: center;
+ 
+}
+.icons2 > li > .icon_img{
+  margin-top:18px;
+}
+
+.icons2 > li:not(:last-child){
+  margin-right: 20px;
+}
+
+.icons2 .contents2 {
+  width:200px;
+  margin:auto;
+  letter-spacing: -1px;
+}
+
+
+.icons3{	/*reserveinfo*/
+  display: flex;
+  width:800px;
+  height: 302px;
+/*    background: orange;   */
+  margin:auto;
+  list-style-type:none;
+  padding-left:0px;	/* 중앙정렬하기위함 현재 flex로 조절해서 속성 추가했음 */
+  margin-left:86px; 
+}
+ 
+.icons3 > li {
+  flex: 1;
+  background: white;
+  margin-top:49px;
+  height:302px;
+  text-align: center;
+ 
+}
+.icons3 > li > .icon_img3{
+  margin-top:18px;
+}
+
+.icons3 > li:not(:last-child){
+  margin-right: 20px;
+}
+
+.icons3 .contents3 {
+  width:200px;
+  margin:auto;
+  letter-spacing: -1px;
+}
+
+
+
+
+/* place - 여행 추천지 관련 */
+
+.icons4{
+  display: flex;
+  width:1000px;
+  height: 200px;
+  /* background: orange;   */
+  margin:auto;
+  list-style-type:none;
+  padding-left:0px;	/* 중앙정렬하기위함 현재 flex로 조절해서 속성 추가했음 */
+  margin-left:350px; 
+}
+ 
+.icons4 > li {
+  flex: 1;
+  background: white;
+  margin-top:70px;
+  height:150px;
+  text-align: center;
+ 
+}
+.icons4 > li > .icon_img{
+  margin-top:20px;
+}
+
+.icons4 > li:not(:last-child){
+  margin-right: 20px;
+}
+
+.icons4 .contents4 {
+  width:80px;
+  margin:auto;
+  letter-spacing: -1px;
+}
+
+
+
+
+
+
+
+
+.more{	/*버튼관련 */
+  width:100px;
+  height: 30px;
+  background: #2F7AF4;
+  color: #fff;
+  font-size: 12px;
+  line-height: 30px;
+  margin:25px auto;
+  margin-top:50px;
+  text-align:center;
+}
+
+.clickclick {	/*버튼관련 */
+  width:100px;
+  height: 30px;
+  background: #ff8000;
+  color: #fff;
+  font-size: 12px;
+  line-height: 30px;
+  margin:25px auto;
+  margin-top:50px;
+  text-align:center;
+}
+
+
+
+
+
+/* main_text1*/
+
+.main_text1{
+  width: 100%;
+  height:659px;
+
+}
+.main_text1 > h1{
+  padding-top:50px;
+  text-align: center;
+}
+.main_text1 > .contents1 {
+  text-align: center;
+}
+.service {
+  width:1280px;
+  display: flex;
+  margin: 49px auto;
+  height:427px;
+}
+
+.service > .contents2 {
+  padding: 20px;
+}
+.service > .contents2 > h2{
+  margin-bottom: 27px;
+}
+
+/* main_text2 */
+.main_text2 {
+  width:100%;
+  height:340px;
+  
+}
+
+.main_text2 > ul {
+  display: flex;
+  padding-top:130px;
+}
+
+.main_text2 > ul > li {
+  flex: 1;
+  text-align: center;
+}
+.main_text2 > ul > li > div,
+.main_text2 > ul > li > div > h1{
+  color: #fff;
+}
+
+
+/* main_text4 */
+.main_text4 {
+  width:90%;
+  height:340px;
+  
+}
+
+.main_text4 > ul {
+  display: flex;
+  padding-top:110px;
+}
+
+.main_text4 > ul > li {
+  flex: 1;
+  text-align: center;
+}
+.main_text4 > ul > li > div,
+.main_text4 > ul > li > div > h1{
+  color: #fff;
+}
+
+
+
+.more2{
+  width:220px;
+  height:40px;
+  border: 1px solid #fff;
+  color: #fff;
+  line-height: 40px;
+  cursor: pointer;
+  margin:16px auto;
+}
+
+.footer{
+  display: flex;
+  background: #1f1f1f;
+  padding:30px;
+}
+.footer > div:first-child {
+  flex:3;
+  text-align: center;
+  color: #fff;
+}
+.footer > div:last-child {
+  flex:9;
+  color: #fff;
+}
+
+
+
