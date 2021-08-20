@@ -17,5 +17,7 @@
 ### 담당 파일
 
 ### 영상
+* [전체](https://youtu.be/MQtqjbB70qg)
+* [담당 부분](https://youtu.be/WuySNsGZ80I)
   
 
