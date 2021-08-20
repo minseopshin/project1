@@ -15,9 +15,25 @@
 6. 팀장 역할 : DB 환경구축, 각 파일의 상태 점검과 연결
   
 ### 담당 파일
+* [dao](https://github.com/minseopshin/project1/tree/master/src/project/dao)
+  * [JejuActivityDao](https://github.com/minseopshin/project1/tree/master/src/project/dao/JejuActivityDao.java)
+  * [JejuCafeDao](https://github.com/minseopshin/project1/tree/master/src/project/dao/JejuCafeDao.java)
+  * [JejuFoodDao](https://github.com/minseopshin/project1/tree/master/src/project/dao/JejuFoodDao.java)
+  * [JejuPlaceDao](https://github.com/minseopshin/project1/tree/master/src/project/dao/JejuPlaceDao.java)
+  * [ReserveDao](https://github.com/minseopshin/project1/tree/master/src/project/dao/ReserveDao.java)
+* [dto](https://github.com/minseopshin/project1/tree/master/src/project/dto)
+  * [JejuActivityDto](https://github.com/minseopshin/project1/tree/master/src/project/dto/JejuActivityDto.java)
+  * [JejuCafeDto](https://github.com/minseopshin/project1/tree/master/src/project/dto/JejuCafeDto.java)
+  * [JejuFoodDto](https://github.com/minseopshin/project1/tree/master/src/project/dto/JejuFoodDto.java)
+  * [JejuPlaceDto](https://github.com/minseopshin/project1/tree/master/src/project/dto/JejuPlaceDto.java)
+  * [ReserveDto](https://github.com/minseopshin/project1/tree/master/src/project/dto/ReserveDto.java)
+  * [ReserveJoinDto](https://github.com/minseopshin/project1/tree/master/src/project/dto/ReserveJoinDto.java)
+* [jsp](https://github.com/minseopshin/project1/tree/master/WebContent)
+  * [recom](https://github.com/minseopshin/project1/tree/master/WebContent/recom)
+  * [reserve](https://github.com/minseopshin/project1/tree/master/WebContent/reserve)
 
 ### 영상
 * [전체](https://youtu.be/MQtqjbB70qg)
-* [담당 부분](https://youtu.be/WuySNsGZ80I)
+* [담당부분](https://youtu.be/WuySNsGZ80I)
   
 
